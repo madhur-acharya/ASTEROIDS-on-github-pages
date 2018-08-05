@@ -1,0 +1,19 @@
+This is my take on the arcade classic "asteroids". the objective is pretty simple. shoot asteroids and drones, collect powerups and try to get a high score.
+
+//////INSTALATION GUIDE////
+extract the files using WinRAR or WinZip.
+open the "ASTEROIDS!!!.HTML" file in your google chrome web browser(you can use any other web browesr you like, but i highly recomend the latest version of google chrome).
+///////////////////////////
+
+the game controls are very simple.
+
+UP-ARROW: 	thrust(moves in the direction you are pointing)
+LEFT-ARROW: 	rotate left
+RIGHT-ARROW: 	rotate right
+DOWN_ARROW: 	break
+SPACE: 		shoot
+ESC: 		pause/ play
+M: 		mute/ unmute background music
+F11: 		Toggle fullscreen
+K: 		skip
+
