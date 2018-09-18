@@ -408,7 +408,7 @@ function loading()
 	context.restore();
 
 	if(bgs_flag === true)
-		setTimeout(function(){ani_di= requestAnimationFrame(intro)}, 1000);
+		ani_di= requestAnimationFrame(intro);
 	else
 		ani_di= requestAnimationFrame(loading);
 }
