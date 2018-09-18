@@ -65,5 +65,5 @@ function ready()
 	document.body.addEventListener("keydown", keydown_get_key);
 	document.body.addEventListener("keyup", keyup_get_key);
 
-	ani_di= requestAnimationFrame(intro);
+	ani_di= requestAnimationFrame(loading);
 }
