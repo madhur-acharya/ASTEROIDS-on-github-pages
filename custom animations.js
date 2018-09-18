@@ -501,7 +501,7 @@ function game_over()
 	context.textAlign = "center";
 	context.fillText("GAME OVER!!!", 0, 0);
 	context.fillText(score, 0, 50);
-	context.fillText("Height Score: " + heigh_score.name + " " + heigh_score.score, 0, 100);
+	//context.fillText("Height Score: " + heigh_score.name + " " + heigh_score.score, 0, 100);
 	context.restore();
 
 	if(enter === true)
