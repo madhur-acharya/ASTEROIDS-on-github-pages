@@ -396,6 +396,23 @@ function intro()
 	}
 }
 
+function loading()
+{
+	context.fillRect(-width / 2, -height / 2, width, height);
+	context.save();
+	context.scale(1, -1);
+	context.textAlign = "center";
+	context.fillStyle = "white";
+	context.font = "30px impact";
+	context.fillText("LOADING . . .", 0, 0);
+	context.restore();
+
+	if(bgs_flag === true)
+		ani_di= requestAnimationFrame(loading);
+	else
+		setTimeout(function(){ani_di= requestAnimationFrame(intro)}, 1000);
+}
+
 function controls()
 {
 	controls_display_counter--;
