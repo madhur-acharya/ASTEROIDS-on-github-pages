@@ -8,7 +8,7 @@ var background_music= new Howl(
     {
         background_music.volume(0.6);
         console.log("Loaded asset: background_music");
-        bg_flag= true;
+        bgs_flag= true;
     }
 });
 
